@@ -16,6 +16,7 @@ public class DemonHilo extends Thread{
       for (int i=0; i<5;i++)
       {
           System.out.println(nombre + " - "+i);
+          Thread.yield(); //Best hariari prest dagoela esan eta hariz aldatu
       }
        
     }
